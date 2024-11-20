@@ -2,7 +2,7 @@
 :root {
     --primary-color: #cf0f0f;
     --primary-color-contrast: #ffffff;
-    --field-background-color: #000;
+    --field-background-color: #000000;
   }
   .light-theme {
     --page-background: linear-gradient(
@@ -48,6 +48,8 @@
   
   body {
     background: var(--page-background);
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   
   h1,
